@@ -7,13 +7,13 @@
 #     print "1 0 0 1 "
 # end 
 
-num = 0
-while num <= 100
-    if num == 3
+num = 1
+while num <= 1000
+    if num % 3 == 0
         print "Mined "
-    elsif num == 5
+    elsif num % 5 == 0
         print "Mines "
-    elsif num == 15
+    elsif num % 15 == 4..14
         print "Kata "
     else
         print "#{num} "
